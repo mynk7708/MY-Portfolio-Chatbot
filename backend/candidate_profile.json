@@ -1,0 +1,188 @@
+{
+  "personal_profile": {
+    "name": "Mayank Mishra",
+    "current_year": "First year",
+    "current_semester": "First semester",
+    "degree": "B.Tech in Computer Science and Engineering",
+    "university": "UPES",
+    "expected_graduation_year": 2030,
+    "current_cgpa": null
+  },
+
+  "contact_and_profiles": {
+    "email": "mayankmishra7728@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/mynk7708/",
+    "github": "https://github.com/mynk7708",
+    "leetcode": "https://leetcode.com/u/mynk7708/"
+  },
+
+  "career": {
+    "specialization_decided": false,
+    "areas_of_interest": [
+      "AI/ML",
+      "AI Engineering",
+      "Backend Development",
+      "Frontend Development",
+      "Cloud Computing",
+      "Software Engineering"
+    ],
+    "motivation": "Interested in using programming to build real-world applications."
+  },
+
+  "strengths": [
+    "Consistency",
+    "Self-learning",
+    "Working under pressure"
+  ],
+
+  "weaknesses": [
+    "Limited software development experience",
+    "Sometimes explores too many technologies at once",
+    "Still developing DSA problem-solving ability",
+    "Still a beginner in competitive programming"
+  ],
+
+  "current_learning": [
+    "Data Structures and Algorithms",
+    "Competitive Programming",
+    "AI Engineering"
+  ],
+
+  "technical_self_assessment": {
+    "comfortable_languages": [
+      "C",
+      "C++",
+      "Python"
+    ],
+
+    "project_details": {
+      "ai_resume_analyzer": {
+        "name": "AI Resume Analyzer & Matcher",
+        "purpose": "Built to explore a practical recruitment use case using AI: extracting structured information from resumes and job descriptions and comparing candidates against job requirements.",
+
+        "technologies": [
+          "Python",
+          "Groq API",
+          "Pydantic",
+          "JSON",
+          "pypdf",
+          "python-docx"
+        ],
+
+        "features": [
+          "Extracts structured candidate information from resumes",
+          "Extracts information from job descriptions",
+          "Supports PDF and DOCX resumes",
+          "Uses Groq LLM calls for information extraction",
+          "Uses Pydantic models for schema validation",
+          "Uses structured JSON outputs",
+          "Can process multiple candidates",
+          "Ranks candidates using deterministic Python scoring",
+          "Considers skills, evidence, experience, education and resume quality"
+        ],
+
+        "challenges": [
+          "Making LLM-generated information structured and reliable enough to process programmatically",
+          "Designing candidate scoring so that ranking is based on actual evidence rather than blindly trusting an LLM-generated score",
+          "Handling resume information coming from different document formats and structures"
+        ],
+
+        "learnings": [
+          "Integrating LLM APIs into Python applications",
+          "Using structured LLM outputs instead of only free-form text",
+          "Using Pydantic for schema validation",
+          "Working with JSON data",
+          "Extracting text from PDF and DOCX documents",
+          "Using environment variables for API keys",
+          "Designing prompts for information extraction",
+          "Separating AI-based extraction from deterministic Python logic",
+          "Understanding that LLM output should be validated rather than automatically trusted"
+        ],
+
+        "possible_improvements": [
+          "Improve the scoring methodology",
+          "Test with a larger variety of resumes and job descriptions",
+          "Improve the user interface",
+          "Provide clearer explanations for candidate scores",
+          "Make the overall system more robust"
+        ]
+      },
+
+      "ai_portfolio_chatbot": {
+        "name": "AI Portfolio Chatbot",
+        "status": "Completed functional project",
+
+        "purpose": "An interactive AI portfolio assistant that allows recruiters and other visitors to ask questions about Mayank's education, skills, projects, strengths, weaknesses, interests and technical background.",
+
+        "technologies": [
+          "Python",
+          "FastAPI",
+          "Groq API",
+          "JSON",
+          "Pydantic",
+          "Prompt Engineering",
+          "React",
+          "TypeScript",
+          "CSS",
+          "WebGL"
+        ],
+
+        "features": [
+          "Extracts structured information from Mayank's resume",
+          "Loads additional candidate information from a JSON profile",
+          "Provides a recruiter-facing conversational interface",
+          "Answers questions using Mayank's supplied candidate information",
+          "Streams AI responses from the FastAPI backend to the frontend",
+          "Maintains conversation history for multi-turn conversations",
+          "Uses separate session IDs so different visitors can maintain independent conversations",
+          "Allows users to clear the current conversation and start a new chat",
+          "Renders structured AI responses using Markdown",
+          "Uses system instructions designed to reduce unsupported claims and hallucinations",
+          "Distinguishes between technologies Mayank has actually used, technologies he is learning and fields he is interested in",
+          "Uses a responsive React and TypeScript frontend",
+          "Includes an interactive WebGL-based visual interface"
+        ],
+
+        "architecture": {
+          "frontend": "React and TypeScript",
+          "backend": "FastAPI with Python",
+          "llm": "Groq API",
+          "candidate_data": "Structured resume information and additional candidate information stored in JSON",
+          "validation": "Pydantic",
+          "communication": "HTTP API with streamed text responses",
+          "conversation_management": "Session-based conversation history"
+        },
+
+        "challenges": [
+          "Preventing the chatbot from inventing candidate information that is not present in the supplied data",
+          "Distinguishing Mayank's interests and current learning from technologies he has actually used",
+          "Maintaining conversation history while keeping different visitor sessions separate",
+          "Streaming LLM responses from the FastAPI backend to the React frontend",
+          "Building an interactive portfolio interface around the conversational AI system"
+        ],
+
+        "learnings": [
+          "Building a FastAPI backend for an AI application",
+          "Connecting a React and TypeScript frontend to a Python backend",
+          "Integrating Groq LLM calls into a web application",
+          "Streaming LLM responses from the backend to the frontend",
+          "Managing conversation history and session IDs",
+          "Using structured candidate data to ground AI responses",
+          "Using prompt engineering to constrain LLM responses",
+          "Using Pydantic to structure and validate candidate information",
+          "Using different AI tools like Chat GPt , Claude,Anti-Gravity, Groq LLM for different tasks",
+          "Building a responsive conversational portfolio interface,using AI agenets."
+        ],
+
+        "honesty_rule": "The chatbot answers using the supplied candidate information and should not invent unsupported skills, achievements or experience."
+      }
+    },
+
+    "limitations": [
+      "Does not claim professional software engineering experience",
+      "Does not claim to be an AI/ML expert",
+      "Does not claim advanced competitive programming ability",
+      "Is still developing software development experience"
+    ]
+  }
+}

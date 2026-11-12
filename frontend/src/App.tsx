@@ -105,7 +105,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/chat", {
+      const response = await fetch("https://my-portfolio-chatbot.onrender.com/chat", {
         method: "POST",
 
         headers: {
@@ -180,7 +180,7 @@ function App() {
 
   async function clearChat() {
     try {
-      await fetch(`http://127.0.0.1:8000/chat/${sessionId.current}`, {
+      await fetch(`https://my-portfolio-chatbot.onrender.com/chat/${sessionId.current}`, {
         method: "DELETE",
       });
 

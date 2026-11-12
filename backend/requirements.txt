@@ -1,0 +1,7 @@
+fastapi>=0.162.3
+groq>=1.7.0
+pydantic>=2.14.3
+pypdf>=7.0.1
+python-docx>=1.2.0
+python-dotenv>=1.2.4
+uvicorn>=0.54.0

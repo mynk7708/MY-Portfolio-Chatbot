@@ -444,10 +444,9 @@ function App() {
                   <div>
                     <strong>Thinking</strong>
 
-                    <p>
-                      Reading Mayank’s profile and preparing a grounded
-                      answer…
-                    </p>
+                    
+                      Thinking...
+                    
                   </div>
                 </div>
               )}
